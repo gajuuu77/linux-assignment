@@ -13,4 +13,4 @@
 See /screenshots folder
 
 ## Author
-Your Name# linux-assignment
+Your Name# gajuuu77
