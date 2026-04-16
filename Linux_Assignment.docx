@@ -1,0 +1,14 @@
+1. Creating and Renaming Files/Directories
+Commands: mkdir test_dir cd test_dir touch example.txt mv example.txt renamed_example.txt  Explanation: Creates directory, file and renames it.
+2. Viewing File Contents
+Commands: cat /etc/passwd head -n 5 /etc/passwd tail -n 5 /etc/passwd  Explanation: Displays full, first 5 lines and last 5 lines.
+3. Searching for Patterns
+Command: grep "root" /etc/passwd  Explanation: Searches for lines containing 'root'.
+4. Zipping and Unzipping
+Commands: zip -r test_dir.zip test_dir unzip test_dir.zip -d unzipped_dir  Explanation: Compress and extract directory.
+5. Downloading Files
+Command: wget https://example.com/sample.txt  Explanation: Downloads file from internet.
+6. Changing Permissions
+Commands: touch secure.txt chmod 444 secure.txt  Explanation: Makes file read-only for everyone.
+7. Environment Variables
+Command: export MY_VAR="Hello, Linux!" echo $MY_VAR  Explanation: Creates and displays environment variable.
